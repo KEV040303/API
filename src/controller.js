@@ -1,4 +1,4 @@
-import { pool } from './db'
+import { pool } from './db.js'
 
 export const getUsuarios = async (req, res) => {
   const data = await pool.query('SELECT * FROM usuarios')
