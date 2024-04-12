@@ -18,6 +18,10 @@ export const server = http.createServer((req, res) => {
         break
     }
   }
+
+  if (method === 'POST') {
+    // POST request
+  }
 })
 
 server.listen(PORT, () => {
